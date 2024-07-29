@@ -1,0 +1,378 @@
+body {
+
+ font-family: Arial, sans-serif;
+
+ margin: 0;
+
+ padding: 0;
+
+}
+
+header {
+
+ background-color: #333;
+
+ color: #fff;
+
+ padding: 20px;
+
+ text-align: center;
+
+}
+
+nav ul {
+
+ list-style-type: none;
+
+ margin: 0;
+
+ padding: 0;
+
+}
+
+nav ul li {
+
+ display: inline;
+
+ margin-right: 20px;
+
+}
+
+nav ul li a {
+
+ color: #fff;
+
+ text-decoration: none;
+
+}section {
+
+ padding: 20px;
+
+}
+
+footer {
+
+ background-color: #333;
+
+ color: #fff;
+
+ padding: 10px;
+
+ text-align: center;
+
+ position: fixed;
+
+ bottom: 0;
+
+ width: 100%;
+
+}
+
+/* Add this CSS to the existing styles.css file */
+
+/* Featured Products */
+
+.featured-products {
+
+ display: flex;
+
+ flex-wrap: wrap;
+
+ justify-content: space-between;
+
+ margin-bottom: 200px;
+
+ margin-top: 200px;
+
+}
+
+.products {
+
+ display: flex;
+
+ flex-wrap: wrap;
+
+ justify-content: space-between;
+
+ margin-bottom: 200px;
+
+}
+
+.product {
+
+ width: calc(16% - 20px);
+
+ margin-bottom: 20px;
+
+ padding: 10px;
+
+ border: 1px solid #ddd;
+
+ border-radius: 5px;
+
+ display: flex;
+
+ flex-direction: column;
+
+ justify-content: space-between;
+
+ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0,
+
+0.19);
+
+ background-color: white;
+
+}
+
+.product img {
+
+ width: 100%;
+
+ border-radius: 5px;
+
+}
+
+.product h4 {
+
+ margin-top: 10px;
+font-size: 18px;
+
+}
+
+.product p {
+
+ margin-top: 5px;
+
+ font-size: 16px;
+
+ color: #666;
+
+}
+
+.product button {
+
+ display: block;
+
+ width: 100%;
+
+ padding: 8px 0;
+
+ margin-top: 10px;
+
+ background-color: yellow;
+
+ color: #fff;
+
+ border: none;
+
+ border-radius: 5px;
+
+ cursor: pointer;
+
+ transition: background-color 0.3s;
+
+}
+
+.product button:hover {
+
+ background-color: yellow;
+
+ color: darkgrey;
+
+}
+
+.image-div {
+
+ background-repeat: no-repeat;
+
+ background-image: url(https://m.mediaamazon.com/images/I/41FBwjCnS2L._SX1500_.jpg);
+
+}
+
+.home-page {
+
+ background: linear-gradient(#64888000, #ffffff, #ffffff, #ffffff,
+
+#ffffff);
+
+}
+
+/* Add this CSS to the existing styles.css file */
+
+.cart-items {
+
+ margin-bottom: 20px;
+
+}
+
+.cart-item {
+
+ display: flex;
+
+ margin-bottom: 20px;
+
+}
+
+.cart-item img {
+
+ width: 200px;
+
+ height: auto;
+
+ margin-right: 20px;
+
+}
+.item-details {
+
+ flex-grow: 1;
+
+}
+
+.item-details h3 {
+
+ margin-top: 0;
+
+ margin-bottom: 10px;
+
+}
+
+.item-details p {
+
+ margin: 0;
+
+ font-size: 16px;
+
+ color: #666;
+
+}
+
+.quantity {
+
+ margin-bottom: 10px;
+
+}
+
+.quantity label {
+
+ margin-right: 10px;
+
+}
+
+.quantity input {
+
+ width: 50px;
+
+ padding: 5px;
+
+ border: 1px solid #ddd;
+
+ border-radius: 5px;
+
+}
+
+.remove-item {
+
+ background-color: #ff0000;
+
+ color: #fff;
+
+ border: none;
+
+ border-radius: 5px;
+
+ padding: 5px 10px;
+
+ cursor: pointer;
+
+}
+
+.remove-item:hover {
+
+ background-color: #cc0000;
+
+}
+
+.cart-total {
+
+ margin-top: 20px;
+
+ text-align: right;
+
+ display: flex;
+
+ justify-content: end;
+
+}
+
+.cart-total h3 {
+
+ margin-top: 0;
+
+ margin-bottom: 10px;
+}
+
+.cart-total p {
+
+ margin: 0;
+
+ font-size: 18px;
+
+ font-weight: bold;
+
+}
+
+.checkout {
+
+ display: block;
+
+ width: 100%;
+
+ background-color: #333;
+
+ color: #fff;
+
+ border: none;
+
+ border-radius: 5px;
+
+ padding: 10px 0;
+
+ cursor: pointer;
+
+ transition: background-color 0.3s;
+
+}
+
+.checkout:hover {
+
+ background-color: #555;
+
+}
+
+@media (max-width: 768px) {
+
+ .featured-products {
+
+ flex-direction: column;
+
+ }
+
+ .product {
+
+ width: 90%;
+
+ }
+
+ .image-div {
+
+ background-repeat: no-repeat;
+
+ width: "100vw";
+
+ background-image: url(https://m.mediaamazon.com/images/I/61ryKP9ABsL._SX3000_.jpg);
+
+ background-size: contain;
+
+ }
+
+}
